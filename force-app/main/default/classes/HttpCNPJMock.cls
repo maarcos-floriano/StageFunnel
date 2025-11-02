@@ -4,7 +4,7 @@ global class HttpCNPJMock implements HttpCalloutMock {
         HttpResponse res = new HttpResponse();
         res.setHeader('Content-Type','application/json');
         res.setStatusCode(200);
-        res.setBody('{"razao_social":"Empresa Exemplo LTDA","fantasia":"Exemplo","cnpj":"12345678000199"}');
+        res.setBody('{"razao_social":"STAGE CONSULTING SERVIÇOS E CONSULTORIA EMPRESARIAL LTDA","fantasia":"Stage Consulting","cnpj":"44.605.692/0001-77"}');
         return res;
     }
 }
