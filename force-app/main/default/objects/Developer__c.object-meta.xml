@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <label>Developer</label>
+  <pluralLabel>Developers</pluralLabel>
+  <nameField>
+    <type>Text</type>
+    <label>Developer Name</label>
+  </nameField>
+  <fields>
+    <fullName>Especialidade__c</fullName>
+    <label>Especialidade</label>
+    <type>Picklist</type>
+    <valueSet>
+      <valueSetDefinition>
+        <sorted>false</sorted>
+        <value>
+          <fullName>Salesforce</fullName>
+        </value>
+        <value>
+          <fullName>JavaScript</fullName>
+        </value>
+        <value>
+          <fullName>C#</fullName>
+        </value>
+        <value>
+          <fullName>SAP</fullName>
+        </value>
+      </valueSetDefinition>
+    </valueSet>
+  </fields>
+  <!-- <fields>
+    <fullName>Email__c</fullName>
+    <label>Email</label>
+    <type>Email</type>
+  </fields> -->
+  <deploymentStatus>Deployed</deploymentStatus>
+  <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

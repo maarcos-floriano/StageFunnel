@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <fullName>CNPJ__c</fullName>
+    <label>CNPJ</label>
+    <type>Text</type>
+    <length>25</length>
+  </fields>
+  <fields>
+    <fullName>Razao_Social__c</fullName>
+    <label>Razao Social</label>
+    <type>Text</type>
+    <length>255</length>
+  </fields>
+  <fields>
+    <fullName>Nome_Fantasia__c</fullName>
+    <label>Nome Fantasia</label>
+    <type>Text</type>
+    <length>255</length>
+  </fields>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

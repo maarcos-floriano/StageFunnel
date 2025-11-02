@@ -1,0 +1,15 @@
+<template>
+  <lightning-card title="Alocar Developers">
+    <div class="slds-p-around_medium">
+      <lightning-combobox label="Tecnologia" value={tecnologia} placeholder="Selecione" options={options} onchange={handleTecnologiaChange}></lightning-combobox>
+      <template if:true={developers}>
+        <lightning-dual-listbox name="devs" label="Developers Disponíveis" source-label="Disponíveis" selected-label="Selecionados"
+          options={devOptions} value={selectedDeveloperIds} onchange={handleSelect}>
+        </lightning-dual-listbox>
+      </template>
+      <div class="slds-m-top_medium">
+        <lightning-button variant="brand" label="Alocar selecionados" onclick={handleAllocate}></lightning-button>
+      </div>
+    </div>
+  </lightning-card>
+</template>

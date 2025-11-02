@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+  <fields>
+    <fullName>Tecnologia_do_Projeto__c</fullName>
+    <label>Tecnologia do Projeto</label>
+    <type>Picklist</type>
+    <valueSet>
+      <valueSetDefinition>
+        <sorted>false</sorted>
+        <value>
+          <fullName>Salesforce</fullName>
+        </value>
+        <value>
+          <fullName>SAP</fullName>
+        </value>
+        <value>
+          <fullName>JavaScript</fullName>
+        </value>
+        <value>
+          <fullName>C#</fullName>
+        </value>
+      </valueSetDefinition>
+    </valueSet>
+  </fields>
+  <fields>
+    <fullName>Tempo_Estimado__c</fullName>
+    <label>Tempo Estimado</label>
+    <type>Number</type>
+    <precision>18</precision>
+    <scale>2</scale>
+  </fields>
+  <fields>
+    <fullName>Data_Inicio__c</fullName>
+    <label>Data Inicio</label>
+    <type>Date</type>
+  </fields>
+  <fields>
+    <fullName>Data_Fim__c</fullName>
+    <label>Data Fim</label>
+    <type>Date</type>
+  </fields>
+  <fields>
+    <fullName>Custo_Estimado__c</fullName>
+    <label>Custo Estimado</label>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+  </fields>
+  <fields>
+    <fullName>Valor_Proposta__c</fullName>
+    <label>Valor da Proposta</label>
+    <type>Currency</type>
+    <precision>16</precision>
+    <scale>2</scale>
+  </fields>
+  <fields>
+    <fullName>Documentos_Assinados__c</fullName>
+    <label>Documentos Assinados</label>
+    <type>Text</type>
+    <length>255</length>
+  </fields>
+  <fields>
+    <fullName>Email_do_Cliente__c</fullName>
+    <label>Email do Cliente</label>
+    <type>Email</type>
+  </fields>
+  <deploymentStatus>Deployed</deploymentStatus>
+  <sharingModel>ReadWrite</sharingModel>
+</CustomObject>
