@@ -20,11 +20,19 @@ export default class DeveloperAllocation extends LightningElement {
     fetchDevelopers({ tecnologia: this.tecnologia })
       .then(result => {
         this.developers = result;
+
+        if (!this.developers || this.developers.length === 0) {
+          this.devOptions = [];
+          return;
+        }
+
         this.devOptions = this.developers.map(d => ({ label: d.Name + ' (' + d.Especialidade__c + ')', value: d.Id }));
       })
       .catch(error => {
         this.developers = undefined;
         this.devOptions = [];
+        const evt = new ShowToastEvent({ title: 'Erro', message: error.body ? error.body.message : error.message, variant: 'error' });
+        this.dispatchEvent(evt);
       });
   }
 
@@ -39,7 +47,7 @@ export default class DeveloperAllocation extends LightningElement {
         this.dispatchEvent(evt);
       })
       .catch(error => {
-        const evt = new ShowToastEvent({ title: 'Erro', message: error.body ? error.body.message : error.message, variant: 'error' });
+        const evt = new ShowToastEvent({ title: 'Erro', message: 'Developers não alocados: ' + (error.body ? error.body.message : error.message), variant: 'error' });
         this.dispatchEvent(evt);
       });
   }
