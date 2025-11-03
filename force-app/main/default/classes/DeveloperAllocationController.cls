@@ -22,6 +22,12 @@ public with sharing class DeveloperAllocationController {
             a.Data_Fim__c = endDate;
             allocations.add(a);
         }
-        if (!allocations.isEmpty()) insert allocations;
+        if (!allocations.isEmpty()) {
+            try {
+                insert allocations;
+            } catch (Exception e) {
+                System.debug('Erro ao criar Developer Allocation: ' + e.getMessage());
+            }
+        }
     }
 }

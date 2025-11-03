@@ -1,0 +1,70 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000IvhvVAAR",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T23:56:23.000Z",
+      "fileName": "flows/EmailAlerta.flow",
+      "fullName": "EmailAlerta",
+      "id": "301bm00001HJJ4gAAH",
+      "lastModifiedById": "005bm00000IvhvVAAR",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T23:56:28.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005bm00000IvhvVAAR",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-03T00:08:57.000Z",
+      "fileName": "flows/CriarProjeto.flow",
+      "fullName": "CriarProjeto",
+      "id": "301bm00001HJxtJAAT",
+      "lastModifiedById": "005bm00000IvhvVAAR",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-03T00:09:02.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005bm00000IvVJFAA3",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T06:12:55.000Z",
+      "fileName": "flows/net_promoter_score.flow",
+      "fullName": "net_promoter_score",
+      "id": "301bm00001HFKApAAP",
+      "lastModifiedById": "005bm00000IvVJFAA3",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T06:12:55.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005bm00000IvVJFAA3",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T06:12:55.000Z",
+      "fileName": "flows/customer_satisfaction.flow",
+      "fullName": "customer_satisfaction",
+      "id": "301bm00001HFKAqAAP",
+      "lastModifiedById": "005bm00000IvVJFAA3",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T06:12:55.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    },
+    {
+      "createdById": "005bm00000IvhvVAAR",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T19:59:33.000Z",
+      "fileName": "flows/buscarCnpj.flow",
+      "fullName": "buscarCnpj",
+      "id": "301bm00001HIKAsAAP",
+      "lastModifiedById": "005bm00000IvhvVAAR",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T20:01:41.000Z",
+      "manageableState": "unmanaged",
+      "type": "Flow"
+    }
+  ]
+}

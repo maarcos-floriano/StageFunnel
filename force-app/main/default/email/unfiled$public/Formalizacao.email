@@ -1,0 +1,14 @@
+<html>
+      <body style="font-family: Arial, sans-serif; font-size: 14px; color: #333;">
+        <p>Olá {!Contact.Name},</p>
+        <p>
+          Segue em anexo o documento para assinatura referente à oportunidade:
+          <strong>{!Opportunity.Name}</strong>.
+        </p>
+        <p>
+          Caso haja qualquer dúvida ou necessidade de ajuste, entre em contato
+          com o nosso time comercial.
+        </p>
+        <p>Atenciosamente,<br/>Equipe Stage Consulting</p>
+      </body>
+    </html>

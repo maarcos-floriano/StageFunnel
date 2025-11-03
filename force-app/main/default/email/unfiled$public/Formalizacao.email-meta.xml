@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Formalização</name>
+    <style>none</style>
+    <subject>Documento para Assinatura - Proposta [Opportunity.Name]</subject>
+    <textOnly>Olá {!Contact.Name},
+
+Segue em anexo o documento para assinatura referente à oportunidade: {!Opportunity.Name}.
+
+Caso haja qualquer dúvida ou necessidade de ajuste, entre em contato com o nosso time comercial.
+
+Atenciosamente,
+Equipe Stage Consulting</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

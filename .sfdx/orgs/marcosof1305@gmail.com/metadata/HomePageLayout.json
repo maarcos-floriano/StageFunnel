@@ -1,0 +1,18 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000IvVJFAA3",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T06:12:55.000Z",
+      "fileName": "homePageLayouts/DE Default.homePageLayout",
+      "fullName": "DE Default",
+      "id": "02Tbm000003cYwbEAE",
+      "lastModifiedById": "005bm00000IvVJFAA3",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T06:12:55.000Z",
+      "manageableState": "unmanaged",
+      "type": "HomePageLayout"
+    }
+  ]
+}

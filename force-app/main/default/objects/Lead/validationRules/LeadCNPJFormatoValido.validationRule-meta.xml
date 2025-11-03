@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LeadCNPJFormatoValido</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(	
+    NOT(ISBLANK(CNPJ__c)),
+        LEN(CNPJ__c) &lt; 14,	
+        LEN(CNPJ__c) &gt; 18,
+        NOT(REGEX(CNPJ__c, &apos;^[0-9]{14}$&apos;))
+)</errorConditionFormula>
+    <errorMessage>CNPJ invalido!</errorMessage>
+</ValidationRule>

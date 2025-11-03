@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunityFormalizacaoWon</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(StageName),
+    ISPICKVAL(StageName, &quot;Closed Won&quot;),
+    OR(
+        NOT(ComprovanteAcordoAnexado__c),
+        NOT(ContratoAssinadoAnexado__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>Para fechar a oportunidade como ganha, você deve ter o Comprovante de Acordo e o Contrato Assinado anexados e confirmados.</errorMessage>
+</ValidationRule>

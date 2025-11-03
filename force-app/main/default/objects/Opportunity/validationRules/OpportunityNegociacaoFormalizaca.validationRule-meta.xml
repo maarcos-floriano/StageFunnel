@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OpportunityNegociacaoFormalizaca</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISCHANGED(StageName),
+    ISPICKVAL(StageName, &quot;Formalization&quot;),
+    OR(
+        ISBLANK( Valor_Proposta__c ),
+        NOT( NdaAnexado__c ),
+        NOT(PropostaAnexada__c)
+    )
+)</errorConditionFormula>
+    <errorMessage>Para formalizar, você deve ter o Valor da Proposta preenchido e confirmar que o NDA e a Proposta foram anexados (marque as caixas de seleção).</errorMessage>
+</ValidationRule>

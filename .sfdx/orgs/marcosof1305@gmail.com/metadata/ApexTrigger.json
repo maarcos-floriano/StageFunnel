@@ -1,0 +1,31 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "005bm00000IvhvVAAR",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T14:26:39.000Z",
+      "fileName": "triggers/LeadTrigger.trigger",
+      "fullName": "LeadTrigger",
+      "id": "01qbm000005mCOzAAM",
+      "lastModifiedById": "005bm00000IvhvVAAR",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T20:44:43.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    },
+    {
+      "createdById": "005bm00000IvhvVAAR",
+      "createdByName": "Marcos Floriano",
+      "createdDate": "2025-11-02T14:26:39.000Z",
+      "fileName": "triggers/OpportunityTrigger.trigger",
+      "fullName": "OpportunityTrigger",
+      "id": "01qbm000005mCP0AAM",
+      "lastModifiedById": "005bm00000IvhvVAAR",
+      "lastModifiedByName": "Marcos Floriano",
+      "lastModifiedDate": "2025-11-02T19:01:45.000Z",
+      "manageableState": "unmanaged",
+      "type": "ApexTrigger"
+    }
+  ]
+}

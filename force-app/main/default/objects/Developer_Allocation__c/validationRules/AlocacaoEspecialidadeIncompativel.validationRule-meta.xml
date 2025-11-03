@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AlocacaoEspecialidadeIncompativel</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(	
+CONTAINS(	
+TEXT( Developer__r.Especialidade__c ), 
+TEXT( Opportunity__r.Tecnologia_do_Projeto__c )
+)	
+)</errorConditionFormula>
+    <errorMessage>A especialidade do desenvolvedor deve incluir a Tecnologia do Projeto desta Oportunidade. Por favor, verifique as especialidades do Desenvolvedor.</errorMessage>
+</ValidationRule>
